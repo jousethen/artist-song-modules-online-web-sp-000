@@ -4,7 +4,7 @@ require_relative '../lib/concerns/memorable'
 class Artist
   attr_accessor :name
   attr_reader :songs
-  entends Memorable
+  entend Memorable
   
   @@artists = []
 
